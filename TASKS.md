@@ -16,21 +16,21 @@
 
 ## Phase 0 — Foundation
 
-### T01: Project Bootstrap & Configuration
+### T01: Project Bootstrap & Configuration: Done
 
 **Blocked by:** Nothing
 **PR scope:** Project setup, tooling, and shared infrastructure.
 
-- [ ] Initialize Python project with `pyproject.toml` (dependencies, scripts, linting)
-- [ ] Configure linter (ruff) and formatter
-- [ ] Configure test runner (pytest)
-- [ ] Create `src/shared/` directory for cross-module concerns (value objects, base classes, exceptions)
-- [ ] Define base entity class (`src/shared/domain/entity.py`)
-- [ ] Define base value object class (`src/shared/domain/value_object.py`)
-- [ ] Define shared custom exceptions (`src/shared/domain/exceptions.py`)
-- [ ] Define repository interface contract (`src/shared/domain/repository.py`)
-- [ ] Verify the test pipeline runs: `pytest` passes with at least one smoke test
-- [ ] Update `.gitignore` with Python defaults
+- [x] Initialize Python project with `pyproject.toml` (dependencies, scripts, linting)
+- [x] Configure linter (ruff) and formatter
+- [x] Configure test runner (pytest)
+- [x] Create `src/shared/` directory for cross-module concerns (value objects, base classes, exceptions)
+- [x] Define base entity class (`src/shared/domain/entity.py`)
+- [x] Define base value object class (`src/shared/domain/value_object.py`)
+- [x] Define shared custom exceptions (`src/shared/domain/exceptions.py`)
+- [x] Define repository interface contract (`src/shared/domain/repository.py`)
+- [x] Verify the test pipeline runs: `pytest` passes with at least one smoke test
+- [x] Update `.gitignore` with Python defaults
 
 **Deliverable:** A clean, runnable project skeleton with shared domain building blocks.
 
@@ -372,34 +372,34 @@ T01 ─────────────────────────�
 
 ## Status Legend
 
-| Symbol | Meaning |
-| --- | --- |
-| ⬜ | Not started |
-| 🔵 | In progress |
-| 🟢 | PR merged |
-| 🔴 | Blocked |
+| Symbol | Meaning     |
+| ------ | ----------- |
+| ⬜     | Not started |
+| 🔵     | In progress |
+| 🟢     | PR merged   |
+| 🔴     | Blocked     |
 
 ## Current Status
 
-| Task | Status | PR |
-| --- | --- | --- |
-| T01 | ⬜ | — |
-| T02 | ⬜ | — |
-| T03 | ⬜ | — |
-| T04 | ⬜ | — |
-| T05 | ⬜ | — |
-| T06 | ⬜ | — |
-| T07 | ⬜ | — |
-| T08 | ⬜ | — |
-| T09 | ⬜ | — |
-| T10 | ⬜ | — |
-| T11 | ⬜ | — |
-| T12 | ⬜ | — |
-| T13 | ⬜ | — |
-| T14 | ⬜ | — |
-| T15 | ⬜ | — |
-| T16 | ⬜ | — |
-| T17 | ⬜ | — |
-| T18 | ⬜ | — |
-| T19 | ⬜ | — |
-| T20 | ⬜ | — |
+| Task | Status | PR  |
+| ---- | ------ | --- |
+| T01  | ⬜     | —   |
+| T02  | ⬜     | —   |
+| T03  | ⬜     | —   |
+| T04  | ⬜     | —   |
+| T05  | ⬜     | —   |
+| T06  | ⬜     | —   |
+| T07  | ⬜     | —   |
+| T08  | ⬜     | —   |
+| T09  | ⬜     | —   |
+| T10  | ⬜     | —   |
+| T11  | ⬜     | —   |
+| T12  | ⬜     | —   |
+| T13  | ⬜     | —   |
+| T14  | ⬜     | —   |
+| T15  | ⬜     | —   |
+| T16  | ⬜     | —   |
+| T17  | ⬜     | —   |
+| T18  | ⬜     | —   |
+| T19  | ⬜     | —   |
+| T20  | ⬜     | —   |

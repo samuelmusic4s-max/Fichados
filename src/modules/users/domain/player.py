@@ -3,4 +3,3 @@ class Player:
         self.id = id
         self.name = name
         self.age = age
-
